@@ -34,7 +34,7 @@ services:
     links:
       - bp-pg-db
   bp-pg-db:
-    image: postgres:15.4
+    image: postgres
     restart: always
     container_name: bp-pg-db
     env_file:
